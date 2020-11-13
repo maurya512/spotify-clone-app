@@ -1,4 +1,7 @@
+import React from "react";
 import './App.css';
+// import the login component into the main app page
+import Login from "./Login";
 
 function App() {
   return (
@@ -6,6 +9,9 @@ function App() {
     <div className="app">
       <h1> something awesome is in the making</h1>
       <h3> check back shortly</h3>
+      <Login></Login>
+      {/* spotify logo */}
+      {/* spotify login with button */}
     </div>
   );
 }
